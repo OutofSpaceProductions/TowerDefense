@@ -5,6 +5,7 @@ public class gameManager : MonoBehaviour
 {
 	public LayerMask PlaceLayer;
 	Vector3 TargetPosition;
+	Vector3 TouchPosition;
 	public GameObject Hero;
 
 	void Update()
@@ -13,11 +14,15 @@ public class gameManager : MonoBehaviour
 		{
 			Debug.Log("Press");
 			RaycastHit hit;
-			if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, PlaceLayer))
+			if(Physics.Raycast(Camera.main.ScreenPointToRay(), out hit, Mathf.Infinity, PlaceLayer))
 			{
 				Instantiate(Hero, hit.point, Hero.transform.rotation);
 			}
 		}
+	}
+	void OnTouchBeganAnyWhere()
+	{
+
 	}
 
 }
