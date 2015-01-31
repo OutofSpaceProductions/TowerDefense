@@ -14,7 +14,8 @@ public class gameManager : MonoBehaviour
 		{
 			Debug.Log("Press");
 			RaycastHit hit;
-			if(Physics.Raycast(Camera.main.ScreenPointToRay(), out hit, Mathf.Infinity, PlaceLayer))
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if(Physics.Raycast(ray, out hit, Mathf.Infinity, PlaceLayer))
 			{
 				Instantiate(Hero, hit.point, Hero.transform.rotation);
 			}
