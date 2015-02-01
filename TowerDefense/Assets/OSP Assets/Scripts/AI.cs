@@ -116,7 +116,8 @@ public class AI : MonoBehaviour {
 	
 	/** Cached NavmeshController component */
 	protected NavmeshController navController;
-	
+
+	public bool _ReachedTarget = false;
 	
 	/** Cached Rigidbody component */
 	protected Rigidbody rigid;
@@ -323,6 +324,15 @@ public class AI : MonoBehaviour {
 	}
 	
 	public virtual void Update () {
+
+		if(targetReached == true)
+		{
+			_ReachedTarget = true;
+		}
+		else
+		{
+			_ReachedTarget = false;
+		}
 		
 		if (!canMove) { return; }
 		

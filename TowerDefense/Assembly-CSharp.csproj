@@ -119,10 +119,12 @@
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\AI.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\BasicObjectPlacement.cs" />
+     <Compile Include="Assets\OSP Assets\Scripts\TankScript.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\girdControl.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
      <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\dependencies.txt" />
@@ -142,6 +144,10 @@
  <Reference Include="Pathfinding.JsonFx">
  <HintPath>/Users/KevMan/GameDevelopment/TowerDefenseGitHub/TowerDefense/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{F47AF338-7682-8375-581E-D61D5164C239}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

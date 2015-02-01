@@ -119,10 +119,12 @@
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\AI.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\BasicObjectPlacement.cs" />
+     <Compile Include="Assets\OSP Assets\Scripts\TankScript.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\girdControl.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
      <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\dependencies.txt" />
@@ -133,6 +135,9 @@
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\License.txt" />
      <None Include="Assets\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/KevMan/GameDevelopment/TowerDefenseGitHub/TowerDefense/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
