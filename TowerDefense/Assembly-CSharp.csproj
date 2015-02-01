@@ -120,6 +120,7 @@
      <Compile Include="Assets\OSP Assets\Scripts\AI.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\BasicObjectPlacement.cs" />
      <Compile Include="Assets\OSP Assets\Scripts\gameManager.cs" />
+     <Compile Include="Assets\OSP Assets\Scripts\girdControl.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
      <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
