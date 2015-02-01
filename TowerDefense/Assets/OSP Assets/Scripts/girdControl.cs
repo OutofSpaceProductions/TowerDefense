@@ -18,22 +18,13 @@ public class girdControl : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void OnMouseOver () 
 	{
-		RaycastHit hit;
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-		if(Physics.Raycast(ray, out hit, Mathf.Infinity, Grid))
-		{
-			renderer.material = MouseOver;
-		}
-		else
-		{
-			renderer.material = Open;
-			return;
-		}
+		renderer.material = MouseOver;
 	}
 	void OnMouseDown()
 	{
+		Debug.Log("Material is Taken");
 		renderer.material = Taken;
 	}
 }

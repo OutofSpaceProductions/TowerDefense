@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OSP Assets/Scripts/BasicObjectPlacement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OSP Assets/Scripts/girdControl.cs">
     <Files>
       <File FileName="Assets/OSP Assets/Scripts/AI.cs" Line="54" Column="5" />
       <File FileName="Assets/OSP Assets/Scripts/BasicObjectPlacement.cs" Line="12" Column="21" />
+      <File FileName="Assets/OSP Assets/Scripts/girdControl.cs" Line="32" Column="11" />
+      <File FileName="Assets/OSP Assets/Scripts/gameManager.cs" Line="21" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
